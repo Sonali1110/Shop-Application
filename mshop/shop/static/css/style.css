@@ -1,0 +1,192 @@
+
+
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  border-bottom: 1px;
+  margin-top: 69px;
+  margin: auto;
+  max-width: 1200px;
+}
+
+/* clearfix */
+
+
+/* Header and Navbar */
+
+  .header {
+    position: fixed;
+    top: 0;
+    width: 1200px;
+    display: block;
+    background-color: black;
+    z-index: 1;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+  }
+
+  .img-tea-cozy-logo {
+      float: left;
+      height: 50px;
+      padding-top: 10px;
+      padding-left: 10px;
+    }
+
+  .header-menu {
+    float: right;
+    display: block;
+  }
+
+  li {
+    list-style-type: none;
+    display: inline-block;
+    text-decoration: underline;
+    padding-top: 5px;
+    padding-right: 15px;
+
+  }
+
+
+  /* Mission */
+
+.mission {
+}
+
+.mission-image{
+	position: relative;
+  vertical-align: middle;
+  padding-left: 50px;
+}
+
+.mission-text{
+    position: absolute;
+    text-align: center;
+    top: 38%;
+    center: 100%;
+    color: seashell;
+    background-color: black;
+    width: 1050px;
+  }
+
+/* Tea of the month */
+.tea-of-month {
+  width: 1000px;
+  text-align: center;
+  padding-left: 25px;
+
+}
+.tea-text {
+    position: relative;
+    width: 1000px;
+    text-align: center;
+    padding-left: 25px;
+  }
+
+  figure {
+      width: 25%;
+      float: left;
+  }
+
+  .myrtle-ave {
+    position: absolute;
+    left: 250px;
+  }
+
+  .bottom-figures-text-1 {
+    position: absolute;
+    bottom: 35px;
+    left: 325px;
+  }
+
+  .bottom-figures-text-2 {
+    position: absolute;
+    bottom: 35px;
+    right: 200px;
+  }
+
+
+  .bedford-bizarre {
+    position: absolute;
+    right: 150px;
+  }
+
+  /* Location */
+.img-locations-background {
+  position: relative;
+  z-index: -1;
+  padding-left: 50px;
+}
+
+.center-top {
+  text-align: center;
+  position: absolute;
+  top: 1500px;
+  left: 575px;
+}
+
+.address-box {
+  position: absolute;
+  width: 1000px;
+  margin: auto;
+  max-width: 1200px;
+  padding-left: 59px;
+  text-align: center;
+  z-index: 1;
+  position: absolute;
+  top: 1565px;
+  left: 75px;
+}
+
+.box-left {
+  background-color: black;
+  opacity: 1;
+  width: 30%;
+  display: inline-block;
+  margin-right: 20px;
+
+}
+
+.box-center {
+  background-color: black;
+  opacity: 1;
+  text-align: center;
+  width: 30%;
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+
+.box-right {
+  background-color: black;
+  opacity: 1;
+  width: 30%;
+  display: inline-block;
+  margin-left: 20px;
+
+}
+
+/* Contact */
+
+  .footer {
+    text-align: center;
+    height: 200px;
+    display: block;
+  }
+
+a { color: inherit; }
+  /* Copyright */
+
+  .copyright {
+    padding-top: 10px;
+    bottom: 0;
+    text-align: left;
+    position: absolute;
+    left: 20px;
+    top: 2150px;
+    z-index: 1;
+  }
